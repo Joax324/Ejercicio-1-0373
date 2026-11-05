@@ -1,0 +1,55 @@
+:root {
+  --header-footer-background: rgb(84, 120, 193);
+  --header-footer-text: white;
+  --section-background: rgba(210, 223, 251, 0.8);
+  --section-text: rgb(73, 105, 169);
+  --hover-text: white;
+  --hover-background: rgb(10, 15, 24);
+  --active-link: black;
+}
+
+body {
+  margin: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+header,
+footer {
+  padding: 10px;
+  background-color: var(--header-footer-background);
+  color: var(--header-footer-text);
+}
+
+section {
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: var(--section-background);
+  color: var(--section-text);
+}
+
+main > section:first-of-type:hover,
+article:hover {
+  background-color: var(--hover-background);
+  color: var(--hover-text);
+}
+
+a {
+  color: inherit;
+}
+
+a:active {
+  color: var(--active-link);
+}
+
+span {
+  font-weight: bold;
+}
+
+article:last-of-type > p {
+  font-style: italic;
+}
