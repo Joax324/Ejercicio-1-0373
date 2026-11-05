@@ -1,0 +1,6 @@
+section {
+    background-color: green;
+   grid-template-columns: repeat(1fr, 1fr);
+    display: grid;
+    gap: 10px;
+}
