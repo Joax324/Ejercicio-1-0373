@@ -1,0 +1,36 @@
+:root {
+  --item-color: lightsalmon;
+  --sub-item-color: rgb(253, 213, 197);
+  --item-gap: 5px;
+  --sub-item-gap: 1rem;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.grid-item {
+  min-width: 0;
+  padding: 3rem;
+  background-color: var(--item-color);
+}
+
+.sub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 6.25rem), 1fr));
+  gap: var(--sub-item-gap);
+  padding: 0;
+  list-style: none;
+}
+
+.sub-item {
+  min-width: 0;
+  padding: 1rem;
+  background-color: var(--sub-item-color);
+}

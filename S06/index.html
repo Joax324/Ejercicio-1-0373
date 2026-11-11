@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Grid i subgrid</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <main class="layout">
+      <section class="grid-item item-1">
+        <h1>Item 1</h1>
+      </section>
+
+      <section class="grid-item item-2">
+        <h2>Item 2</h2>
+      </section>
+
+      <section class="grid-item item-3">
+        <h2>Item 3</h2>
+        <ul class="sub-grid" aria-label="Subitems de l'item 3">
+          <li class="sub-item">Sub-item1</li>
+          <li class="sub-item">Sub-item2</li>
+          <li class="sub-item">Sub-item3</li>
+          <li class="sub-item">Sub-item4</li>
+          <li class="sub-item">Sub-item5</li>
+        </ul>
+      </section>
+
+      <section class="grid-item item-4">
+        <h2>Item 4</h2>
+      </section>
+
+      <section class="grid-item item-5">
+        <h2>Item 5</h2>
+      </section>
+    </main>
+  </body>
+</html>
