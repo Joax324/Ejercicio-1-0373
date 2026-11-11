@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: var(--item-gap);
-  min-height: 100vh;
 }
 
 .item-1,
